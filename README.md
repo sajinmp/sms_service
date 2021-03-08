@@ -1,24 +1,12 @@
-# README
+# Sms Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Follow the steps to get app ready and running
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Clone this repo
+- Install ruby version 2.7.2
+- Install bundler
+- Run `bundle` to install the gems
+- Install postgresql and redis and start the services
+- Configure `database.yml` with your db and credentials
+- Run `rake db:migrate`
+- Run `rails s` to start the server
